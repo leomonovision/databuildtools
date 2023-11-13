@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+    - name: stg_calendar
+      description: "A starter dbt model"
+
+    - name: stg_listings
+      description: "A starter dbt model"
+
+    - name: stg_reviews
+      description: "A starter dbt model"
