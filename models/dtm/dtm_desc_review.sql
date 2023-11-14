@@ -1,0 +1,1 @@
+select * from {{ ref('cmp_dim_desc_reviews') }}

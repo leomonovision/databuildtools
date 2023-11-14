@@ -1,0 +1,23 @@
+version: 2
+
+models:
+    - name: cmp_amenities
+      description: "Generates flag boolean columns for amenities"
+
+    - name: cmp_fact_avg_price
+      description: "calculate average price aggregated to rental by month"
+
+    - name: cmp_max_review
+      description: "get only most recent Review for each rental"
+    
+    - name: cmp_dim_rentals_01
+      description: "rental data dim step 01"
+    
+    - name: cmp_dim_rentals_02
+      description: "rental data dim step 02 (end)"
+
+    - name: cmp_dim_desc_reviews
+      description: "contain rental desc + last review for each rental"
+
+    - name: cmp_dim_hosts
+      description: "Hosts data"
