@@ -2,10 +2,10 @@ version: 2
 
 models:
     - name: stg_calendar
-      description: "A starter dbt model"
+      description: "night price (366 line for each rental)"
 
     - name: stg_listings
-      description: "A starter dbt model"
+      description: "rentals data"
 
     - name: stg_reviews
-      description: "A starter dbt model"
+      description: "reviews and date"

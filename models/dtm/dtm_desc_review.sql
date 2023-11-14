@@ -1,1 +1,1 @@
-select * from {{ ref('cmp_desc_reviews') }}
+select * from {{ ref('cmp_dim_desc_reviews') }}

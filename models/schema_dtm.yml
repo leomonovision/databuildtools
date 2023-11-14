@@ -6,6 +6,11 @@ models:
 
     - name: dtm_facts
       description: "contains average price"
+      columns:
+        - name: id
+          tests:
+            - unique
+            - not_null
 
     - name: dtm_hosts
       description: "hosts data"
