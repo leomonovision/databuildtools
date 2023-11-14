@@ -15,7 +15,7 @@ reviews as (
 select
     a.id id_rental,
     a.description,
-    b.comments
-FROM description a LEFT JOIN reviews b on a.id = b.id_rental
+    b.comments last_review
+FROM description a LEFT JOIN reviews b on a.id = b.id_rental -- aa
 
     

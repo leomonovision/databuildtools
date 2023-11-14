@@ -1,0 +1,14 @@
+version: 2
+
+models:
+    - name: dtm_desc_review
+      description: "contain desc and reviews for each rental"
+
+    - name: dtm_facts
+      description: "contains average price"
+
+    - name: dtm_hosts
+      description: "hosts data"
+    
+    - name: dtm_rentals
+      description: "rentals data"
