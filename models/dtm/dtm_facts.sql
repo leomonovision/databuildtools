@@ -1,0 +1,1 @@
+select * from {{ ref('cmp_avg_price') }}

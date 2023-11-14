@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: paris # this is the source_name
+    database: dbt_rbnb
+    schema: paris_raw
+
+    tables:
+      - name: calendar # this is the table_name
+      - name: listings
+      - name: reviews
+  
+  - name: lyon
+    database: dbt_rbnb
+    schema: lyon_raw
+    tables:
+      - name: calendar # this is the table_name
+      - name: listings
+      - name: reviews

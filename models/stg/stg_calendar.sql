@@ -8,7 +8,7 @@ select
     to_decimal(to_numeric(ltrim("price",'$"'))) as price,
     "available" as available
 
- from dbt_rbnb.raw.calendar
+ from {{ source('paris', 'calendar') }}
 )
 
 select * from stg_calendar

@@ -1,5 +1,0 @@
-version: 2
-
-models:
-    - name: cmp_avg_price.
-      description: "A starter dbt model"
