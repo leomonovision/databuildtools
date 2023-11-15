@@ -19,5 +19,5 @@ models:
     - name: cmp_dim_desc_reviews
       description: "contain rental desc + last review for each rental"
 
-    - name: cmp_dim_hosts
+    - name: cmp_dim_host
       description: "Hosts data"
