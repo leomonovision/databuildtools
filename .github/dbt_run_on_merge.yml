@@ -17,9 +17,15 @@ jobs:
 
   # Set the environment variables needed for the run
     env:
+<<<<<<< HEAD:.github/dbt_run_on_merge.yml
       DBT_ACCOUNT_ID: 216868 # enter your account id
       DBT_PROJECT_ID: 314276 # enter your project id
       DBT_PR_JOB_ID:  457263 # enter your job id
+=======
+      DBT_ACCOUNT_ID: "216868" # enter your account id
+      DBT_PROJECT_ID:   "314276" # enter your project id
+      DBT_PR_JOB_ID:  "457263" # enter your job id
+>>>>>>> eac4aa2c63bc1cfb981319c80313b6ace78099be:python/dbt_run_on_merge.yml
       DBT_API_KEY: ${{ secrets.DBT_API_KEY }}
       DBT_JOB_CAUSE: 'GitHub Pipeline CI Job' 
       DBT_JOB_BRANCH: ${{ github.ref_name }}
