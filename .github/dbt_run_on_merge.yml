@@ -18,7 +18,7 @@ jobs:
   # Set the environment variables needed for the run
     env:
       DBT_ACCOUNT_ID: 216868 # enter your account id
-      DBT_PROJECT_ID:   314276 # enter your project id
+      DBT_PROJECT_ID: 314276 # enter your project id
       DBT_PR_JOB_ID:  457263 # enter your job id
       DBT_API_KEY: ${{ secrets.DBT_API_KEY }}
       DBT_JOB_CAUSE: 'GitHub Pipeline CI Job' 
